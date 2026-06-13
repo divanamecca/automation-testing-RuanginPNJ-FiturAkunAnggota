@@ -1,0 +1,336 @@
+{
+  "id": "6ebcfdc5-2480-413a-9757-2c85d6f96c1d",
+  "version": "2.0",
+  "name": "ruanginPNJ",
+  "url": "http://pbl-ruanginpnj.test",
+  "tests": [{
+    "id": "aba7b0e9-ac8e-476a-b1b1-2f47adeece80",
+    "name": "ganti-password",
+    "commands": [{
+      "id": "b1faaaa0-2a4b-428a-8816-e1289ca73d89",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1ce313a-99c1-4ed7-90fe-36d8e778aed3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1432x852",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "efc46271-834a-4e22-9b93-54dd656ce63f",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbd7a6ca-7fc7-40b3-8ae8-863695d7b0fd",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "lebron.tik24@stu.pnj.ac.id"
+    }, {
+      "id": "4c4eec39-b905-4ee9-a65c-585f43a11636",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6794b1f7-5c8d-4e91-9cb4-c5cea3a5a873",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "user123"
+    }, {
+      "id": "fd5f6177-05f1-4e9c-b1aa-8310cc812fc9",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginForm",
+      "targets": [
+        ["id=loginForm", "id"],
+        ["css=#loginForm", "css:finder"],
+        ["xpath=//form[@id='loginForm']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98d4530e-4255-415b-93a1-de728cf7e611",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-\\[\\#38C55C\\]",
+      "targets": [
+        ["css=.bg-\\[\\#38C55C\\]", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login - Explore Ruangan Sekarang')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16a3e694-409a-42ec-b49b-174bb7e42f49",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-dark-overlay > .font-medium",
+      "targets": [
+        ["css=.text-dark-overlay > .font-medium", "css:finder"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Akun')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3993aa92-9b03-4ddd-a524-2d29150fe363",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ganti Password",
+      "targets": [
+        ["linkText=Ganti Password", "linkText"],
+        ["css=.py-3:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Ganti Password')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Akun/gantiPassword')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ganti Password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c89135a4-342c-4083-a303-450f75076a9c",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=passwordLama", "name"],
+        ["css=.mb-4:nth-child(1) #password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='formChangePassword']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d93433d-583e-4a41-b59a-e2bf581a7903",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=passwordLama", "name"],
+        ["css=.mb-4:nth-child(1) #password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='formChangePassword']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "user123"
+    }, {
+      "id": "a4c2e5e9-0c0c-461c-b940-cff2d96d2192",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-4:nth-child(1) .w-5",
+      "targets": [
+        ["css=.mb-4:nth-child(1) .w-5", "css:finder"],
+        ["xpath=//form[@id='formChangePassword']/div/div/div/button/img", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92a828e9-5e26-4fff-a6c1-f9687148de12",
+      "comment": "",
+      "command": "click",
+      "target": "name=passwordBaru",
+      "targets": [
+        ["name=passwordBaru", "name"],
+        ["css=.mb-4:nth-child(2) #password", "css:finder"],
+        ["xpath=(//input[@id='password'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='formChangePassword']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4081c241-5f15-4459-98ee-f849dfcfa7ac",
+      "comment": "",
+      "command": "type",
+      "target": "name=passwordBaru",
+      "targets": [
+        ["name=passwordBaru", "name"],
+        ["css=.mb-4:nth-child(2) #password", "css:finder"],
+        ["xpath=(//input[@id='password'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='formChangePassword']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "lebron123"
+    }, {
+      "id": "07a776f9-fb80-4b79-aef3-1cf1fe644221",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-4:nth-child(2) .w-5",
+      "targets": [
+        ["css=.mb-4:nth-child(2) .w-5", "css:finder"],
+        ["xpath=//form[@id='formChangePassword']/div/div[2]/div/button/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d29495a-6a8a-46d9-997a-aa01bb819238",
+      "comment": "",
+      "command": "click",
+      "target": "name=passwordBaruConfirm",
+      "targets": [
+        ["name=passwordBaruConfirm", "name"],
+        ["css=.mb-1 #password", "css:finder"],
+        ["xpath=(//input[@id='password'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='formChangePassword']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd118453-0177-454f-b0f2-447a90c73078",
+      "comment": "",
+      "command": "type",
+      "target": "name=passwordBaruConfirm",
+      "targets": [
+        ["name=passwordBaruConfirm", "name"],
+        ["css=.mb-1 #password", "css:finder"],
+        ["xpath=(//input[@id='password'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='formChangePassword']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "lebron123"
+    }, {
+      "id": "544cbe48-6ca0-498e-b511-0741ed2d1900",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-white",
+      "targets": [
+        ["css=.text-white", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='formChangePassword']/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Konfirmasi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fb7bda2-7d29-4683-9d24-92b56853e719",
+      "comment": "",
+      "command": "click",
+      "target": "css=.font-semibold:nth-child(2)",
+      "targets": [
+        ["css=.font-semibold:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='modalButtons']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Konfirmasi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4c6825e-ddcf-4d5a-97dd-1227aef34921",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-5\\/6",
+      "targets": [
+        ["css=.w-5\\/6", "css:finder"],
+        ["xpath=//button[@onclick=\"document.getElementById('info-modal-overlay').remove();\"]", "xpath:attributes"],
+        ["xpath=//div[@id='info-modal-overlay']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ac2ea0b-c03c-4656-94ba-5179d36c3511",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75a1fd65-f11e-4143-aeef-4f111a257beb",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "lebron.tik24@stu.pnj.ac.id"
+    }, {
+      "id": "22006381-158f-4a4c-8d6b-9a3413ed27b8",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "lebron123"
+    }, {
+      "id": "4e704ec2-b460-40d7-bd95-754fc52c628f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-\\[\\#38C55C\\]",
+      "targets": [
+        ["css=.bg-\\[\\#38C55C\\]", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login - Explore Ruangan Sekarang')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8d2e15db-1028-4abb-97a4-3db3b75987ac",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["aba7b0e9-ac8e-476a-b1b1-2f47adeece80"]
+  }],
+  "urls": ["http://pbl-ruanginpnj.test/"],
+  "plugins": []
+}
